@@ -13,11 +13,8 @@
 }
 
 @layer components {
-    .product-title {
-        @apply font-medium sm:text-lg text-[#1E1E1E]
-    }
-    .add-to-cart {
-        @apply bg-black text-white font-medium lg:py-3 py-2 lg:px-4 px-1 rounded-md flex flex-grow items-center justify-center md:gap-4 hover:bg-[#FFC831] hover:text-black transition duration-300
+    .nav-link {
+        @apply xl:text-xl sm:text-base text-sm nav-text font-semibold
     }
 
 }
