@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+
+@layer components {
+    .product-title {
+        @apply font-medium sm:text-lg text-[#1E1E1E]
+    }
+    .add-to-cart {
+        @apply bg-black text-white font-medium lg:py-3 py-2 lg:px-4 px-1 rounded-md flex flex-grow items-center justify-center md:gap-4 hover:bg-[#FFC831] hover:text-black transition duration-300
+    }
+
+}
+
+
+@layer utilities {
+    .box-shadow{
+        box-shadow: 0 10px 24px #C0C3C7;
+    }
+    .nav-text {
+      color: #878787;
+    }
+    .nav-text:hover {
+      color: #ffffff;
+      transition: 0.6s all ease;
+    }
+}
