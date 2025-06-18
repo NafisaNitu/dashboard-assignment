@@ -16,14 +16,17 @@
     .nav-link {
         @apply xl:text-xl sm:text-base text-sm nav-text font-semibold
     }
+    .right-content-text {
+      @apply sm:text-base text-sm font-medium
+    }
+    .right-content-total {
+      @apply sm:text-base text-sm
+    }
 
 }
 
 
 @layer utilities {
-    .box-shadow{
-        box-shadow: 0 10px 24px #C0C3C7;
-    }
     .nav-text {
       color: #878787;
     }
