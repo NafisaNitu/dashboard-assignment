@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <div className='flex flex-col justify-between xl:p-4 min-h-screen'>
         <div>
-            <img src="/src/images/profile.png" className='rounded-2xl relative' alt="" />
+            <img src="/images/profile.png" className='rounded-2xl relative' alt="" />
                 <span
                     className="absolute xl:left-32 lg:left-28 sm:left-20 left-16 xl:top-14 sm:top-10 top-8 w-6 h-6 rounded-full flex items-center justify-center bg-red-500 text-white text-xs font-medium">4</span>
 
