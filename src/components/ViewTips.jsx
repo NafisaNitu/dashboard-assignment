@@ -1,8 +1,8 @@
 import React from 'react'
 
 const tips = {
-    img1: "/src/images/b-1.png",
-    img2: "/src/images/b-2.png",
+    img1: "/images/b-1.png",
+    img2: "/images/b-2.png",
     title: "Save more money",
     text: "eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim."
 }
